@@ -1,0 +1,170 @@
+body {
+    margin: 0;
+}
+.table{
+    margin: 0 auto;
+    max-height: 600px;
+    background-color: #fff;
+}
+.table td{
+    display: inline-block;
+}
+.sloy1{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.main-logo a{
+    margin-top: 30px;
+    margin-right: 200px;
+    width: 100%;
+    background-size: cover;
+}
+.phone a{
+    margin: 16px 0px -16px 0px;
+    display: table;
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 30px;
+    color: #2d3235;
+    font-weight: bold;
+    font-family: "Arial";
+    text-align: center;
+    text-decoration: none;
+}
+.hello{
+    text-align: center;
+    background-color: #f6fafb;
+}
+.hello h1{
+    font-size: 30px;
+    letter-spacing: 1px;
+    line-height: 21px;
+    color: #393d98;
+    font-weight: bold;
+    font-family: "Arial";
+}
+.hello h2{
+    margin: 0;
+    font-size: 24px;
+    letter-spacing: 1px;
+    line-height: 21px;
+    color: #393d98;
+    font-weight: bold;
+    font-family: "Arial";
+}
+.hello p{
+    width: 400px;
+    height: 40px;
+    font-size: 18px;
+    color: #748098;
+    font-family: "Arial";
+    text-align: center;
+}
+.name{
+    background-color: #f6fafb;
+}
+.name p{
+    margin-left: 30px;
+}
+.name b{
+    color: #3c465c;
+    font-weight: 18px;
+}
+.name i{
+    color: #748098;
+}
+.name a{
+    color: #748098;
+    font-family: "Arial";
+}
+.ditail{
+    height: 104px;
+    width: 600px;
+    background-image: url(../img/sloy2.png);
+}
+.ditail h3{
+    margin-left: 30px;
+    font-size: 24px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    color: #f6fafb;
+    text-align: left;
+    font-weight: bold;
+    font-family: "Arial";   
+}
+.academy{
+    text-align: center;
+}
+.academy h4{
+    margin-top: 45px;
+    font-size: 25px;
+    letter-spacing: 1px;
+    line-height: 6px;
+    color: #393d98;
+    font-weight: bold;
+    font-family: "Arial";
+}
+.webdiz{
+    margin-left: 30px;
+    margin-top: 20px;
+    display: inline-block;
+    width: 541px;
+    height: 61px;
+    background-image: url(../img/sloy3.png);
+    background-size: cover;
+}
+.webdiz1{
+    display: block;
+    margin-left: 30px;
+    margin-top: 20px;
+    width: 541px;
+    height: 61px;
+    background-image: url(../img/sloy3.png);
+    background-size: cover;
+}
+.webdiz2{
+    display: block;
+    margin-left: 30px;
+    margin-top: 20px;
+    width: 541px;
+    height: 61px;
+    background-image: url(../img/sloy3.png);
+    background-size: cover;
+}
+.webdiz b,
+.webdiz1 b,
+.webdiz2 b{
+    display: inline-block;
+    margin: 8px 20px;
+}
+.webdiz h5,
+.webdiz1 h5,
+.webdiz2 h5{
+    display: inline-block;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #3c465c;
+    font-weight: bold;
+    font-family: "Arial";
+    text-align: center;  
+}
+.webdiz a,
+.webdiz1 a,
+.webdiz2 a{
+    text-align: right;
+    text-decoration: none;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 6px;
+    color: #366cd4;
+    font-family: "Arial";   
+}
+.social{
+    margin-top: 28px;
+    margin-left: 340px;
+    text-align: right;
+}
+
+
+
+
