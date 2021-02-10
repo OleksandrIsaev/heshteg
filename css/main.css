@@ -31,6 +31,9 @@ body {
     text-align: center;
     text-decoration: none;
 }
+.polosa b{
+    vertical-align: bottom;
+}
 .hello{
     text-align: center;
     background-color: #f6fafb;
@@ -69,6 +72,7 @@ body {
 .name b{
     color: #3c465c;
     font-weight: 18px;
+    font-family: "Arial";
 }
 .name i{
     color: #748098;
@@ -80,7 +84,7 @@ body {
 .ditail{
     height: 104px;
     width: 600px;
-    background-image: url(../img/sloy2.png);
+    background-image: url(https://raw.githubusercontent.com/OleksandrIsaev/heshteg/master/img/sloy2.png);
 }
 .ditail h3{
     margin-left: 30px;
@@ -104,13 +108,19 @@ body {
     font-weight: bold;
     font-family: "Arial";
 }
+.webdiz b,
+.webdiz1 b,
+.webdiz2 b{
+    display: inline-block;
+    margin-left: 20px;
+}
 .webdiz{
     margin-left: 30px;
     margin-top: 20px;
     display: inline-block;
     width: 541px;
     height: 61px;
-    background-image: url(../img/sloy3.png);
+    background-image: url(https://raw.githubusercontent.com/OleksandrIsaev/heshteg/master/img/sloy3.png);
     background-size: cover;
 }
 .webdiz1{
@@ -119,7 +129,7 @@ body {
     margin-top: 20px;
     width: 541px;
     height: 61px;
-    background-image: url(../img/sloy3.png);
+    background-image: url(https://raw.githubusercontent.com/OleksandrIsaev/heshteg/master/img/sloy3.png);
     background-size: cover;
 }
 .webdiz2{
@@ -128,18 +138,22 @@ body {
     margin-top: 20px;
     width: 541px;
     height: 61px;
-    background-image: url(../img/sloy3.png);
+    background-image: url(https://raw.githubusercontent.com/OleksandrIsaev/heshteg/master/img/sloy3.png);
     background-size: cover;
 }
-.webdiz b,
-.webdiz1 b,
-.webdiz2 b{
-    display: inline-block;
-    margin: 8px 20px;
-}
 .webdiz h5,
-.webdiz1 h5,
+.webdiz1 h5{
+    margin: 20px;
+    display: inline-block;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #3c465c;
+    font-weight: bold;
+    font-family: "Arial";
+    text-align: center;  
+}
 .webdiz2 h5{
+    margin: 9px 0px 8px 17px;
     display: inline-block;
     font-size: 20px;
     letter-spacing: 1px;
@@ -151,7 +165,7 @@ body {
 .webdiz a,
 .webdiz1 a,
 .webdiz2 a{
-    text-align: right;
+    display: inline-block;
     text-decoration: none;
     font-size: 18px;
     letter-spacing: 1px;
@@ -159,10 +173,22 @@ body {
     color: #366cd4;
     font-family: "Arial";   
 }
+.webdiz a{
+    margin-left: 140px;
+}
+.webdiz1 a{
+    margin-left: 90px;
+}
+.webdiz2 a{
+    margin-left: 120px;
+}
 .social{
     margin-top: 28px;
-    margin-left: 340px;
+    margin-left: 385px;
     text-align: right;
+}
+.social a{
+    margin: 10px;
 }
 
 
