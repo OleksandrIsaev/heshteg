@@ -5,19 +5,22 @@ body {
     margin: 0 auto;
     max-height: 600px;
     background-color: #fff;
+    max-width: 400px;
 }
 .table td{
     display: inline-block;
 }
 .sloy1{
     margin-top: 30px;
-    margin-left: 30px;
+    margin-left: 20px;
 }
 .main-logo a{
     margin-top: 30px;
-    margin-right: 200px;
     width: 100%;
     background-size: cover;
+}
+.phone p{
+    margin-left: 240px;
 }
 .phone a{
     margin: 16px 0px -16px 0px;
@@ -28,11 +31,7 @@ body {
     color: #2d3235;
     font-weight: bold;
     font-family: "Arial";
-    text-align: center;
     text-decoration: none;
-}
-.polosa b{
-    vertical-align: bottom;
 }
 .hello{
     text-align: center;
@@ -45,17 +44,19 @@ body {
     color: #393d98;
     font-weight: bold;
     font-family: "Arial";
+    text-align: center;
 }
 .hello h2{
-    margin: 0;
     font-size: 24px;
     letter-spacing: 1px;
     line-height: 21px;
     color: #393d98;
     font-weight: bold;
     font-family: "Arial";
+    text-align: center;
 }
 .hello p{
+    margin: 0 auto;
     width: 400px;
     height: 40px;
     font-size: 18px;
@@ -68,6 +69,7 @@ body {
 }
 .name p{
     margin-left: 30px;
+    text-align: left;
 }
 .name b{
     color: #3c465c;
