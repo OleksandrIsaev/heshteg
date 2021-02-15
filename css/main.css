@@ -23,7 +23,7 @@ body {
     margin-left: 240px;
 }
 .phone a{
-    margin: 16px 0px -16px 0px;
+    margin: 0;
     display: table;
     font-size: 16px;
     letter-spacing: 0px;
@@ -186,11 +186,18 @@ body {
 }
 .social{
     margin-top: 28px;
-    margin-left: 385px;
+    margin-left: 420px;
     text-align: right;
 }
 .social a{
     margin: 10px;
+}
+.social p{
+    font-size: 12px;
+    line-height: 6px;
+    color: #3c465c;
+    font-family: "Arial";
+    text-align: center;
 }
 
 
