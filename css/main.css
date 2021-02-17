@@ -35,7 +35,7 @@ body {
 }
 .hello{
     text-align: center;
-    background-color: #f6fafb;
+    background-image: url(/img/style.jpg);
 }
 .hello h1{
     font-size: 30px;
