@@ -7,24 +7,19 @@ body {
     background-color: #fff;
     width: 600px;
 }
-.table td{
-    display: inline-block;
-}
-.sloy1{
+.brgin{
     margin-top: 30px;
-    margin-left: 20px;
-}
-.main-logo a{
-    margin-top: 30px;
-    width: 100%;
-    background-size: cover;
 }
 .phone p{
-    margin-left: 240px;
+    float: right;
+    margin-right: 30px;
+}
+.toptop{
+    margin-left: 30px;
+    margin-top: 20px;
 }
 .phone a{
-    margin: 0;
-    display: table;
+    display: inline-block;
     font-size: 16px;
     letter-spacing: 0px;
     line-height: 30px;
@@ -33,7 +28,13 @@ body {
     font-family: "Arial";
     text-decoration: none;
 }
-.hello{
+.table2{
+    display: inline-block;
+}
+.table2 a{
+    display: table;
+}
+.fonyk{
     text-align: center;
     background-image: url(https://raw.githubusercontent.com/OleksandrIsaev/heshteg/master/img/style.jpg);
     background-repeat: no-repeat;
@@ -41,7 +42,6 @@ body {
 .hello h1{
     font-size: 30px;
     letter-spacing: 1px;
-    line-height: 21px;
     color: #393d98;
     font-weight: bold;
     font-family: "Arial";
@@ -50,13 +50,12 @@ body {
 .hello h2{
     font-size: 24px;
     letter-spacing: 1px;
-    line-height: 21px;
     color: #393d98;
     font-weight: bold;
     font-family: "Arial";
     text-align: center;
 }
-.hello p{
+.fonyk i{
     margin: 0 auto;
     width: 400px;
     height: 40px;
@@ -64,15 +63,14 @@ body {
     color: #748098;
     font-family: "Arial";
     text-align: center;
+    font-style: normal;
 }
-.name{
-    height: 100px;
-    background-repeat: no-repeat;
-}
-.name p{
-    width: 570px;
+.fonyk p{
+    margin-bottom: 40px;
     margin-left: 30px;
+    width: 570px;
     text-align: left;
+    font-size: 18px;
 }
 .name b{
     color: #3c465c;
@@ -80,6 +78,8 @@ body {
     font-family: "Arial";
 }
 .name i{
+    font-size: 15px;
+    font-style: italic;
     color: #748098;
 }
 .name a{
@@ -87,15 +87,14 @@ body {
     font-family: "Arial";
 }
 .ditail{
-    height: 104px;
     width: 600px;
     background-image: url(https://raw.githubusercontent.com/OleksandrIsaev/heshteg/master/img/sloy2.png);
+    background-repeat: no-repeat;
 }
 .ditail h3{
     margin-left: 30px;
     font-size: 24px;
     letter-spacing: 1px;
-    line-height: 30px;
     color: #f6fafb;
     text-align: left;
     font-weight: bold;
@@ -108,7 +107,6 @@ body {
     margin-top: 45px;
     font-size: 25px;
     letter-spacing: 1px;
-    line-height: 6px;
     color: #393d98;
     font-weight: bold;
     font-family: "Arial";
@@ -117,55 +115,62 @@ body {
 .webdiz1 b,
 .webdiz2 b{
     display: inline-block;
-    margin-left: 20px;
+    width: 30px;
+    margin-top: 8px;
+    margin-left: 12px;
+    margin-right: 20px;
+}
+.webdiz b{
+    width: 20px;
 }
 .webdiz{
     margin-left: 30px;
-    margin-top: 20px;
-    display: inline-block;
-    width: 541px;
-    height: 61px;
-    background-image: url(https://raw.githubusercontent.com/OleksandrIsaev/heshteg/master/img/sloy3.png);
-    background-size: cover;
+    margin-bottom: 21px;
+    border-radius: 5px;
+    width: 540px;
+    height: 60px;
+    background-color: #eaeaea;
 }
 .webdiz1{
-    display: block;
     margin-left: 30px;
-    margin-top: 20px;
-    width: 541px;
-    height: 61px;
-    background-image: url(https://raw.githubusercontent.com/OleksandrIsaev/heshteg/master/img/sloy3.png);
-    background-size: cover;
+    margin-bottom: 21px;
+    border-radius: 5px;
+    width: 540px;
+    height: 60px;
+    background-color: #eaeaea;
 }
 .webdiz2{
-    display: block;
     margin-left: 30px;
-    margin-top: 20px;
-    width: 541px;
-    height: 61px;
-    background-image: url(https://raw.githubusercontent.com/OleksandrIsaev/heshteg/master/img/sloy3.png);
-    background-size: cover;
+    border-radius: 5px;
+    width: 540px;
+    height: 62px;
+    background-color: #eaeaea;
 }
-.webdiz h5,
-.webdiz1 h5{
-    margin: 20px;
+.webdiz i{
     display: inline-block;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #3c465c;
+    font-weight: bold;
+    font-family: "Arial"; 
+    font-style: normal;
+}
+.webdiz1 i{
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #3c465c;
+    font-weight: bold;
+    font-family: "Arial";
+    font-style: normal;  
+}
+.webdiz2 i{
     font-size: 20px;
     letter-spacing: 1px;
     color: #3c465c;
     font-weight: bold;
     font-family: "Arial";
     text-align: center;  
-}
-.webdiz2 h5{
-    margin: 9px 0px 8px 17px;
-    display: inline-block;
-    font-size: 20px;
-    letter-spacing: 1px;
-    color: #3c465c;
-    font-weight: bold;
-    font-family: "Arial";
-    text-align: center;  
+    font-style: normal;
 }
 .webdiz a,
 .webdiz1 a,
@@ -174,33 +179,29 @@ body {
     text-decoration: none;
     font-size: 18px;
     letter-spacing: 1px;
-    line-height: 6px;
     color: #366cd4;
     font-family: "Arial";   
 }
+.webdiz1 a,
+.webdiz2 a,
 .webdiz a{
-    margin-left: 140px;
-}
-.webdiz1 a{
-    margin-left: 90px;
-}
-.webdiz2 a{
-    margin-left: 120px;
+   float: right;
+   margin-right: 20px;
 }
 .social{
     margin-top: 28px;
-    margin-left: 420px;
     text-align: right;
 }
 .social a{
     margin: 10px;
 }
 .social p{
+    margin-top: 20px;
+    margin-right: 30px;
     font-size: 12px;
-    line-height: 6px;
     color: #3c465c;
     font-family: "Arial";
-    text-align: center;
+    text-align: right;
 }
 
 
