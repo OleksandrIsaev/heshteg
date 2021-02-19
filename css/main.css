@@ -11,14 +11,14 @@ body {
     margin-top: 30px;
 }
 .phone p{
-    float: right;
     margin-right: 30px;
 }
 .toptop{
     margin-left: 30px;
-    margin-top: 20px;
+    margin-top: 30px;
+    margin-bottom: 0;
 }
-.phone a{
+.table2 a{
     display: inline-block;
     font-size: 16px;
     letter-spacing: 0px;
@@ -35,11 +35,13 @@ body {
     display: table;
 }
 .fonyk{
+    margin-top: 20px;
     text-align: center;
     background-image: url(https://raw.githubusercontent.com/OleksandrIsaev/heshteg/master/img/style.jpg);
-    background-repeat: no-repeat;
+    vertical-align: top;
 }
 .hello h1{
+    padding-top: 10px;
     font-size: 30px;
     letter-spacing: 1px;
     color: #393d98;
@@ -87,12 +89,16 @@ body {
     font-family: "Arial";
 }
 .ditail{
+    margin-left: 20px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-right: 1px;
     width: 600px;
     background-image: url(https://raw.githubusercontent.com/OleksandrIsaev/heshteg/master/img/sloy2.png);
     background-repeat: no-repeat;
 }
 .ditail h3{
-    margin-left: 30px;
+    margin: 20px;
     font-size: 24px;
     letter-spacing: 1px;
     color: #f6fafb;
@@ -115,13 +121,12 @@ body {
 .webdiz1 b,
 .webdiz2 b{
     display: inline-block;
-    width: 30px;
-    margin-top: 8px;
+    width: 50px;
+    margin-top: 2px;
     margin-left: 12px;
-    margin-right: 20px;
 }
 .webdiz b{
-    width: 20px;
+    width: 40px;
 }
 .webdiz{
     margin-left: 30px;
@@ -193,7 +198,7 @@ body {
     text-align: right;
 }
 .social a{
-    margin: 10px;
+    margin-right: 10px;
 }
 .social p{
     margin-top: 20px;
